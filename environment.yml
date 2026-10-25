@@ -1,0 +1,9 @@
+name: decoy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - aq-llm-pivot==0.2.1
+      - numpy>=1.24,<3
